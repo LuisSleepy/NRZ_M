@@ -35,6 +35,7 @@ int main() {
         printf("%i ", nrzm[i]);
     }
 
+    // Freeing up allocated memory
     free(str);
 
     return 0;
